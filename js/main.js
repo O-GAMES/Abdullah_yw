@@ -1,7 +1,7 @@
 let swiperTestimonial = new Swiper(".swiper", {
     spaceBetween: 20,
     autoplay: {
-        delay: 2500,
+        delay: 3500,
         disableOnInteraction: false,
     },
     loop: true, 
@@ -25,21 +25,21 @@ let swiperTestimonial = new Swiper(".swiper", {
 
 const sr = ScrollReveal({
     distance: "50px",
-    duration: 2500,
+    duration: 3000,
     delay: 110,
     // rest: true
 });
 
 // sr.reveal(``, {})
 
-sr.reveal(`#hero-img, .title, .story-text`, { delay: 200, origin: "left"});
+sr.reveal(`#hero-img, .title, .story-text, .contact_card, .copyright, .footer-socil-icon`, { interval: 100, origin: "left"});
 
 // sr.reveal(``, { origin: "top"});
 
 
-sr.reveal(`#hero-text-p, #hero-text-h4, #hero-text-h1, #about-img`, { origin: "rigth", interval: 100 });
+sr.reveal(`#hero-text-p, #hero-text-h4, #hero-text-h1, #about-img, .text-title, .contact_form, .contact_title`, { origin: "rigth", interval: 100 });
 
-    sr.reveal(`.socil-icon, a, li, .logo, .project_card`, { origin: "bottom", interval: 100 });
+    sr.reveal(`.socil-icon, .hero, .project_card, .btn, .swiper, .projects_filters, .contact_content, .sponsor, .sponsor-img`, { origin: "bottom", interval: 100 });
 
 
 
@@ -61,5 +61,4 @@ function activeWork(){
 }
 
 linkWork.forEach(l=> l.addEventListener('click', activeWork()))
-
 

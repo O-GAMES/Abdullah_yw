@@ -436,5 +436,196 @@ color: black;
 
 .word .swiper-slide img {
     margin-bottom: 3rem;
+    width: 300px;
     border-radius: 1rem;
+}
+
+
+.work-together .title::after {
+    margin-left: 110px;
+}
+.contact_container {
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    justify-content: center;
+    column-gap: 5rem;
+    margin-top: var(--mb-2-5);
+}
+
+.contact_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--mb-2);
+}
+
+.contact_title {
+    font-family: 'BalooBhaijaan2b';
+    font-size: var(--h3-font-size);
+}
+
+.contact_content .contact_info {
+    display: grid;
+    gap: var(--mb-2-5);
+}
+
+.contact_content .contact_card {
+    display: grid;
+    justify-items: center;
+    background-color: white;
+    padding: var(--mb-1) var(--mb-2-5);
+    border-radius: var(--mb-0-75);
+    box-shadow: 0px 0px 20px 9px #00000008;
+}
+
+
+.contact_card-titel {
+    font-size: var(--h3-font-size);
+    font-weight: 600;
+    padding: 5px 0;
+    
+}
+
+.contact_card-data {
+    color: var(--second-color);
+    font-size: var(--font-medium);
+}
+
+.contact_card-link {
+    margin-top: var(--mb-1);
+    color: var(--main-color);
+    transition: var(--transition-duration);
+    font-weight: 600;
+}
+
+.contact_card-link:hover {
+    color: #0077ff;
+}
+
+.contact_form-div {
+    display: flex;
+    width: 360px;
+    gap: 0rem;
+    margin: 0 auto;
+    flex-direction: column;
+    width: 360px;
+    margin: 0 auto;
+}
+
+.contact_form-div .contact_form-input {
+    width: 100%;
+    height: 100%;
+    border: 2px solid var(--main-color);
+    background: none;
+    color: black;
+    outline: none;
+    padding: var(--mb-1);
+    border-radius: var(--mb-0-75);
+    font-family: 'BalooBhaijaan';
+    font-size: 1rem;
+}
+
+.contact_form-div p {
+    margin-top: 1.5rem;
+    align-self: center;
+}
+
+.contact_form-div p a {
+    color: var(--main-color);
+}
+
+.contact_form-div p a:hover {
+    color: #0077ff;
+}
+
+.contact_form-div .button {
+    border: none;
+    background: var(--section-backgrond);
+    color: #363636;
+    border-radius: var(--mb-0-75);
+    font-size: 1.2rem;
+    width: 6.7rem;
+    height: 2.7rem;
+    margin-top: var(--mb-2);
+    font-weight: 600;
+    cursor: pointer;
+    transition: var(--transition-duration);
+}
+
+.contact_form-div .button:hover {
+    background: var(--main-color);
+    color: white;
+    box-shadow: 0px 0px 20px 9px #008cff18;
+
+}
+
+.sponsor-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sponsor .contact_title {
+    color: var(--main-color);
+} 
+
+.sponsor_content {
+display: grid;
+grid-template-columns: repeat(5, max-content);
+justify-content: center;
+gap: 2rem 4rem;
+margin-top: var(--mb-2-5);
+}
+
+
+.sponsor_content .sponsor-img {
+    width: 120px;
+}
+
+footer {
+    background-color: var(--main-color);
+    overflow: hidden;
+}
+
+footer .container {
+    padding: var(--mb-2-5) 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .copyright {
+    display: flex;
+    justify-content: center;
+    font-family: 'BalooBhaijaan2b';
+    font-size: 1.2rem;
+}
+
+
+.Contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+footer .contact_title {
+    font-size: var(--normal-font-size);
+}
+
+.Contact-container .footer-socil-icon {
+    margin-top: var(--mb-1);
+    color: ;
+}
+
+.Contact-container .footer-socil-icon a {
+    margin-left:var(--mb-0-75);
+    font-size: 1.1rem;
+    color: white;
+    transition: var(--transition-duration);
+}
+
+.Contact-container .footer-socil-icon a:hover {
+    color: black;
 }

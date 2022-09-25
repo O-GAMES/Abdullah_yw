@@ -1,3 +1,12 @@
+
+let icon = document.querySelector(".icon");
+let list = document.getElementById("phone-list")
+
+icon.onclick = function () {
+    list.classList.toggle("active")
+}
+
+
 let swiperTestimonial = new Swiper(".swiper", {
     spaceBetween: 20,
     autoplay: {
@@ -61,4 +70,5 @@ function activeWork(){
 }
 
 linkWork.forEach(l=> l.addEventListener('click', activeWork()))
+
 

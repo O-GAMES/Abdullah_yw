@@ -126,7 +126,7 @@ header ul {
 }
 
 header ul li {
-    padding-left: 25px;
+    padding-left: 20px;
 }
 
 header ul li a {
@@ -438,6 +438,33 @@ color: black;
     border-radius: 1rem;
 }
 
+/* =========links-for-you========= */
+
+.links-for-you .title::after {
+    margin-left: 195px;
+    
+}
+
+.links-for-you .links-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+
+    gap: 2rem 3rem;
+    margin-top: var(--mb-2-5);
+
+}
+
+.links {
+    color: var(--second-color) !important;
+    transition: var(--transition-duration);
+}
+
+.links:hover {
+    color: var(--main-color) !important;
+}
+/* =========links-for-you========= */
+
+
 /* =========work-together========= */
 
 .work-together .title::after {
@@ -682,6 +709,13 @@ footer .contact_title {
     margin-right: 0;
     }
 
+    .links-for-you .links-cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 2rem 3rem;
+        margin-top: var(--mb-2-5);
+        font-size: 0.8rem;
+    }
 
     .contact_container {
         grid-template-columns: repeat(1, max-content);
@@ -727,7 +761,7 @@ footer .contact_title {
 @media screen and (max-width: 576px) {
 
 header .container {
-    padding: 0.75rem 3rem ;
+    padding: 3px 2rem;
 }
 
 header .container h2 {
@@ -739,7 +773,7 @@ header ul {
     position: absolute;
     right: 0;
     min-width: 200px;
-    top: calc(100% + 15px);
+    top: calc(100% + 16px);
     transition: var(--transition-duration);
     width: 100%;
     display: none;    
@@ -830,13 +864,22 @@ header ul li {
         
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 820px) {
         
     .main .container {
         flex-wrap: wrap;
         justify-content: center;
         margin-top: var(--mb-1);
     }
+
+    header .container h2 {
+        font-size: 1.2rem;
+    }
+
+    header .container ul {
+        font-size: 0.9rem;
+    }
+    
 
     .hero {
     display: flex;

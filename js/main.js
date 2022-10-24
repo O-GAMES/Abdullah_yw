@@ -25,10 +25,10 @@ fetch(`https://api.allorigins.win/get?url=${encodeURIComponent('https://linktr.e
 for (let i = 0; i < linkTer.length; i++) {
 
     let myLinks = document.createElement('a');
-    let myLinksTitle = linkTer.slice(i, i + 250).split("<")[0].slice(3);
+    let myLinksTitle = linkTer.slice(i, i + 250).split("<")[0].slice(4);
     let myLinksText = document.createTextNode(myLinksTitle);
 
-    if (linkTer.slice(i, i+ 3) === 'I">') {
+    if (linkTer.slice(i, i+ 4) === 'rP">') {
         
         myLinks.className = "links";
 

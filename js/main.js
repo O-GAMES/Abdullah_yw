@@ -21,7 +21,7 @@ fetch(`https://api.allorigins.win/get?url=${encodeURIComponent('https://linktr.e
 
         
         let linkTer  = data.contents;
-        
+        console.log(linkTer)
 for (let i = 0; i < linkTer.length; i++) {
 
     let myLinks = document.createElement('a');

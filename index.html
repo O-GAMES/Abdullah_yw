@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ar">
+<html lang="en">
     
 <head>
     <meta charset="UTF-8">
@@ -13,14 +13,14 @@
     <link rel="stylesheet" href="css/swiper-bundle.min.css"/>
     <!-- My style file -->
     <link rel="stylesheet" href="css/style.css">
-
-    <title>عبدالله_العلاوي</title>
+    <title>عبدالله العلاوي</title>
 </head>
 <body>
+
     <header>
-        <div class="container" >
+        <div class="container">
             
-                <h2><a href="#" class="logo">عبدالله العلاوي</a></h2>
+                <h2><a href="#" class="logo" data-lang="headerH2">عبدالله العلاوي</a></h2>
                 
                 <span class="icon">
                     <span></span>
@@ -29,33 +29,43 @@
                 </span>
                 
                 <ul id= "phone-list">
-                    <li><a href="#about">🙋 حكايتي</a></li>
-                    <li><a href="#projects">📌 اعمالي</a></li>
-                    <li><a href="#word">📷 كلمه</a></li>
-                    <li><a href="#links-for-you">📎 روابط تهمك</a></li>
-                    <li><a href="#work-together">نتعاون ؟</a></li>
+                    <li><a href="#work-together" data-lang="contact">📮 تواصل</a></li>
+                    <li><a href="#links-for-you" data-lang="links">🔗 روابط</a></li>
+                    <li><a href="#word" data-lang="shot">📸 لقطة</a></li>
+                    <li><a href="#projects" data-lang="myWorks">📍 أعمالي</a></li>
+                    <li><a href="#about" data-lang="myStory">📝 قصتي</a></li>
+                    
+                    <li><select name="" id="lang-sele">
+                        <option value="ar">ar</option>
+                        <option value="en">en</option>
+                    </select></li>
+                
                 </ul>
 
         </div>
     </header>
 
     <section class="main">
-        <div class="container">
+        <div class="container" id="main-container">
 
-            <img src="images/Untitled2.png" alt="" id="hero-img">
+            <img src="images/hero.png" alt="" id="hero-img">
             <div class="hero">
                 
-                <h4 id="hero-text-h4">أهلا معك</h4>
-                <h1 id="hero-text-h1">عبدالله العلاوي</h1>
-                <p id="hero-text-p">طبيب أحسّن حياتي وأشاركك رحلتي مؤسس مجتمع<br> مسافة, عندك أي سؤال عني؟</p>
-                <a href="#about" class="btn">حياك لمعرفة المزيد</a>
+                <h4 id="hero-text-h4" data-lang="heroWelcome">أهلا معك</h4>
+                <h1 id="hero-text-h1" data-lang="heroAbdullah">عبدالله العلاوي</h1>
+                <p id="hero-text-p" data-lang="heroText">طبيب أسنان ومؤسس مجتمع مسافة، أعمل على تحسين جودة حياتي اليومية<br>وأشارك معك توثيق الرحلة بمواقع التواصل الاجتماعي.</p>
+                <a href="#about" class="btn" data-lang="forMore">للمزيد</a>
                 
                 <div class="socil-icon">
                     <a href="https://twitter.com/Abdullah_yw" target="_blank"><i class="fab fa-twitter"></i></a>
-                    <a href="https://instagram.com/Abdullah_yw"href="https://instagram.com/Abdullah_yw" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://t.snapchat.com/YGRoHDxw" target="_blank"><i class="fa-brands fa-snapchat"></i></a>
                     <a href="https://api.whatsapp.com/send?phone=966533699194" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://instagram.com/Abdullah_yw"href="https://instagram.com/Abdullah_yw" target="_blank"><i class="fab fa-instagram"></i></a>
                     <a href="mailto:abdullah@msafh.com" target="_blank"><i class="fa-regular fa-envelope"></i></a>
                     <a href="https://www.youtube.com/channel/UCUdtq-Fvlw7_NjzduNTZsbg" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://www.tiktok.com/@abdullah_yw?lang=ar" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="https://www.youtube.com/channel/UCkbZRVTQOWqKlTHfYnFUMJQ" target="_blank"><i class="fa-solid fa-microphone"></i></a>
+                    <a href="https://www.youtube.com/channel/UCgz7y_raZ9YpyA3mKqvJTag" target="_blank" class="shorts"></a>
                 </div>
             </div>
         </div>
@@ -63,92 +73,146 @@
     </section>
 
     <section class="about" id="about">
-        <div class="container">
-            <img src="images/IMG_m.JPG" alt="" id="about-img">
+        <div class="container" id="about-container">
+            <img src="images/about.png" alt="" id="about-img">
             <div class="text-box">
-                <h1 class="title">حكايتي</h1>
-                <p class="story-text">أهلييييين
-                    معك عبدالله 🙋
-                    تخرّجت كـ طبيب أسنان وهذه الفترة أعمل بشكل يومي على تحسين حياتي 🚀
-                    الرحلة طوووووويلة .. لكن وجود أمثالك معي في الرحلة، يساعدني إن التأثير يتعدى نفسي ويوصل لمن حولي وهذا (فعلًا) الهدف من كل شيء أسويه الآن 🥅 ولهذا السبب أسست مجتمع مسافة اللي يهدف إن يقرب المسافة بين شخصيتك المستقبلية والحالية .. كل شهر نشتغل على تحدي يومي يحسّن حياة أصدقائنا
-                    وأسست مبادرة أنت أنا اللي أثرت بحياة آلاف الطلاب بحمدالله وفضله، ثم بتعاون طلاب الجامعات مع طلبة الثانوية بكل حب للعطاء
-                    🎓 بفضل الله تخرجت من برنامج قمم ومثّلت المملكة العربية السعودية بعدة محافل: بمنتدى شباب العالم بمصر ٢٠١٩م وبرنامج القيادات الإعلامية العربية الشابة بالإمارات ٢٠١٨م، وكنت سفير برنامج إم بي سي الأمل بالجامعات السعودية ٢٠١٨م، ومثّلت وبكل فخر خريجي جامعة الملك عبدالعزيز بكلمة الخريجين بالحفل السنوي شوف الفيديو 🎤 كانت عندي الفرصة إن أقدم عدة محاضرات وخطابات تعليمية
-                    بصراحة أقربها لقلبي حتى اليوم : TedxKau بجامعة الملك عبدالعزيز
-                    خطاب: اسمع العالم صوتك 🌍 وبعدها شاركت بتقديم سلسلة ورش عمل مع مسك المهارات، وتيدكس جامعة طيبة واليوم الوطني فيها، ومؤتمر اليوم العالمي للتطوع بمنطقة المدينة المنورة و ورشة عمل في صناعة التوعية الصحية بعدة مدن بالسعودية.                
+                <h1 class="title"  data-lang="aboutTitle">
+                    <span class="title-dot"></span>
+                    قصتي</h1>
+                <p class="story-text" data-lang="storyText">
+                    حياااك الله من جديد <br>
+                    معك عبدالله العلاوي طبيب أسنان سعودي <br>
+                   وفي الوقت الحالي أعمل يوميا على تحسين حياتي 🚀<br>
+                  صحيح أنّ رحلة التحسين شاقة وغير منتهية ولكنّها أيضاً ممتعة، وبوجودك معي فإن التأثير يتعداني ويصل للجميع…وهذا هو الهدف الحقيقي من كل شي!<br>
+                   <br>
+                   أهم محطات الرحلة كانت:<br>
+                   * مجتمع مسافة الذي يهدف إلى تقريب المسافة بين شخصيتك المستقبلية والحالية من خلال معسكرات وورش عمل أو تحديات نطلقها باستمرار <br>
+                   * على الصعيد الأكاديمي أسست مبادرة "أنت أنا" التي ساعدت آلاف الطلاب بحمدالله وفضله، ثم بتعاون طلاب الجامعات بالسعودية وخارجها مع طلبة الثانوية بكل حب للعطاء 🎓<br>
+                   * بفضل الله تخرجت من برنامج قمم الذي يهدف لتمكين القيادات الواعدة من طلاب وطالبات جامعات المملكة العربية السعودية.<br>
+                   <br>
+                   حصلت بتوفيق الله على عدة جوائز .. أهمها : <br>
+                   جائزة طبيب الامتياز الأفضل في التواصل – كلية طب الأسنان، جامعة الملك عبدالعزيز ، 2019<br>
+                   المركز الأول بمسابقة أفضل فكرة عمل اجتماعي -جائزة الأميرة صيتة باليوم الوطني 88 ،2018<br>
+                   المركز الثالث بمسابقة مدينة الملك عبدالعزيز للعلوم والتقنية- لتقديم محتوى إعلامي توعوي مسموع، 2018<br>
+                   المركز الأول بجائزة وعي - مسار السناب شات، وزارة الصحة السعودية، 2018<br>
+                   جائزة أم الجود للتوعية بالثقافة العامة – مؤسسة جائزة الأميرة صيتة بنت عبدالعزيز للتميز في العمل الاجتماعي، 2022.<br>
+                   <br>
+                   <br>
+                   * وتشرفت بتمثيل المملكة العربية السعودية في عدة محافل:<br>
+                   - 2019 منتدى شباب العالم بمصر<br>
+                   - 2018 برنامج القيادات الإعلامية العربية الشابة بالإمارات<br>
+                   - 2018 سفير برنامج MBC الأمل بالجامعات السعودية<br>
+                   - 2019 مثّلت وبكل فخر خريجي جامعة الملك عبدالعزيز <a href="https://youtu.be/iv5aLFR566s" target="_blank">بكلمة الخريجين</a> بالحفل السنوي <br>
+                   <br>
+                   * قدمت محاضرات وخطابات تعليمية لكن يبقى أقربها لقلبي حتى اليوم: <br>
+                   <a href="https://youtu.be/foBHMKhSHu4 " target="_blank">TedxKau</a> بجامعة الملك عبدالعزيز خطاب: اسمع العالم صوتك  🌍<br>
+                   <br>
+                   * شاركت بتقديم ورش عمل:<br>
+                   - مسك المهارات<br>
+                   -  TEDx جامعة طيبة واليوم الوطني فيها.<br>
+                   - مؤتمر اليوم العالمي للتطوع بمنطقة المدينة المنورة <br>
+                   -2019,2022 سلسلة ورشة عمل (صناعة التوعية الصحية) حول مدن السعودية <br>
+                   <br>
+                   <br>
+                   روتين التسعين هو المشروع الأهم بختام 2022م وبداية 2023 م بإذن الله <br>
+                   <br>
+                   والرحلة مستمرة بإذن الله…<br>
                 </p>
-
-                <a href="" class="btn">تحميل الcv</a>
-                <a href="https://msafh.com/" class="btn border-btn" target="_blank">مجتمع مسافه ↖</a>
+                
+                <!-- <a href="" class="btn">تحميل الcv</a> -->
+                <a href="https://msafh.com/" class="btn border-btn" target="_blank"><img src="images/msafh.png" alt="" id="msafh"></a>
             </div>
         </div>
     </section>
 
     <section class="projects" id="projects">
         <div class="container">
-            <h1 class="title">اعمالي</h1>
-            <p class="text-title">هنا بتحصل افضل اعمالي الي قدمتها</p>
+            <h1 class="title" data-lang="projectsTitle">
+                <span class="title-dot"></span>
+                أعمالي
+            </h1>
+            <!-- <p class="text-title">هنا بتحصل افضل اعمالي الي قدمتها</p> -->
 
             <div class="projects_filters">
-                <span class="projects_item" data-filter="all">الكل</span>
-                <span class="projects_item" data-filter=".vdieo">فيديوهات</span>
-                <span class="projects_item" data-filter=".course">دورات</span>
-                <span class="projects_item" data-filter=".articl">مقالات</span>
+                <span class="projects_item" data-filter="all" data-lang="all">الكل</span>
+                <span class="projects_item" data-filter=".vdieo" data-lang="vdieos">فيديوهات</span>
+                <span class="projects_item" data-filter=".course" data-lang="courses">دورات</span>
+                <span class="projects_item" data-filter=".articl" data-lang="blog">المدونة</span>
             </div>
             <div class="project_container">
                 
                 <div class="project_card vdieo">
-                    <img src="https://img.youtube.com/vi/Ex9PnYEjQv4/0.jpg" alt="">
-                    <h3>تجربه العنوان</h3>
-                    <div class="card-text">
+                    <iframe class="latestVideoEmbed" vnum='0' width="auto" height="auto" frameborder="0" allowfullscreen></iframe>
+                    <!-- <h3>تجربه العنوان</h3> -->
+                    <!-- <div class="card-text">
                         <p>تجربه فقره الشرح</p>
                         <a href="#">اعرف المزيد</a>
-                    </div>
+                    </div> -->
                     
                 </div>
                 
                 <div class="project_card vdieo">
-                    <img src="https://img.youtube.com/vi/FVXSA5Osb1g/0.jpg" FVXSA5Osb1g alt="">
-                    <h3>تجربه العنوان</h3>
-                    <div class="card-text">
+                    <iframe class="latestVideoEmbed" vnum='1'  frameborder="0" allowfullscreen></iframe>
+                    <!-- <h3>تجربه العنوان</h3> -->
+                    <!-- <div class="card-text">
                         <p>تجربه فقره الشرح</p>
                         <a href="#">اعرف المزيد</a>
-                    </div>
+                    </div> -->
+                </div>
+
+                <div class="project_card vdieo">
+                    <iframe class="latestVideoEmbed" vnum='2'  frameborder="0" allowfullscreen></iframe>
+                    <!-- <h3>تجربه العنوان</h3> -->
+                    <!-- <div class="card-text">
+                        <p>تجربه فقره الشرح</p>
+                        <a href="#">اعرف المزيد</a>
+                    </div> -->
                 </div>
                 
+                
                 <div class="project_card course">
-                    <img src="images/work2.jpg" alt="">
-                    <h3>تجربه العنوان</h3>
-                    <div class="card-text">
-                        <p>تجربه فقره الشرح</p>
-                        <a href="#">اعرف المزيد</a>
-                    </div>
-                </div>
-
-                <div class="project_card course">
-                    <img src="images/work2.jpg" alt="">
-                    <h3>تجربه العنوان</h3>
-                    <div class="card-text">
-                        <p>تجربه فقره الشرح</p>
-                        <a href="#">اعرف المزيد</a>
-                    </div>
+                    <a href="https://msafh.com/bundles/pp" target="_blank">
+                    <img src="images/course.png" alt="">
+                    <h3 data-lang="projectCardCourse">دورة رحلة الإنتاجية</h3>
+                    <!-- <!-- <div class="card-text">
+                        <!-- <p>تجربه فقره الشرح</p> 
+                    </div> -->
+                </a>
                 </div>
 
                 <div class="project_card articl">
-                    <img src="images/work3.jpg" alt="">
-                    <h3>تجربه العنوان</h3>
-                    <div class="card-text">
-                        <p>تجربه فقره الشرح</p>
-                        <a href="#">اعرف المزيد</a>
-                    </div>
+                    <a href="https://msafh.com/blog/3595-%D8%B9%D8%B4%D8%B1-%D8%A3%D9%85%D9%88%D8%B1-%D8%AA%D8%B1%D9%83%D8%AA%D9%87%D8%A7-%D9%85%D9%86-%D8%AD%D9%8A%D8%A7%D8%AA%D9%8A
+                    " target="_blank">
+                    <img src="images/sss.png" alt="">
+                    <h3 id="cardH" data-lang="articlOne">عشر أمور تركتها من حياتي</h3>
+                    <!-- <div class="card-text">
+                        <!-- <p>تجربه فقره الشرح</p> 
+                    </div> -->
+                </a>
                 </div>
 
+                
                 <div class="project_card articl">
-                    <img src="images/work3.jpg" alt="">
-                    <h3>تجربه العنوان</h3>
-                    <div class="card-text">
-                        <p>تجربه فقره الشرح</p>
-                        <a href="#">اعرف المزيد</a>
-                    </div>
+                    <a href="https://msafh.com/blog/3596-%D8%B9%D8%A7%D8%AF%D8%A9-%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%8A%D9%82%D8%A7%D8%B8-%D8%A7%D9%84%D9%85%D8%A8%D9%91%D9%83%D8%B1
+                        " target="_blank">
+                    <img src="images/sss2.png" alt="">
+                    <h3 data-lang="articlTwo">عادة الاستيقاظ المبّكر؟</h3>
+                    <!-- <div class="card-text">
+                        <!-- <p>نسمع كثيرًا عن أشخاص</p> 
+                    </div> -->
+                </a>
+                </div>
+
+
+                <div class="project_card articl">
+                    <a href="https://msafh.com/blog/3589-%D8%A7%D9%84%D8%AA%D8%AF%D9%88%D9%8A%D9%86-%D8%A7%D9%84%D9%8A%D9%88%D9%85%D9%8A-%D8%B9%D9%84%D8%A7%D8%AC-%D9%81%D8%B9%D9%91%D8%A7%D9%84
+                    " target="_blank">
+                    <img src="images/sss3.png" alt="">
+                    <h3 data-lang="articlThree">التدوين اليومي .. علاج فعّال</h3>
+                    <!-- <div class="card-text">
+                        <!-- <p>تجربه فقره الشرح</p>
+                    </div> -->
+                </a>
                 </div>
                 
             </div>
@@ -157,258 +221,22 @@
 
     <section class="word" id="word">
         <div class="container">
-            <h1 class="title">كلمه</h1>
-            <p class="text-title">نصيحه بسيطه في صوره</p>
+            <h1 class="title" data-lang="worldTitle">
+                <span class="title-dot"></span>
+                لقطة
+            </h1>
+            <p class="text-title" data-lang="shotText">تختصر المعنى</p>
 
             
             <!-- Slider main container -->
     <div class="swiper">
     <!-- Additional required wrapper -->
     <div class="swiper-wrapper">
-        <!-- Slides -->
-    <div class="swiper-slide">
-        <img src="images/word/1.jpg" alt="" >
-    </div>
-    
-    <div class="swiper-slide">
-        <img src="images/word/2.jpg" alt="" >
-    </div>
-    
-    <div class="swiper-slide">
-        <img src="images/word/3.jpg" alt="" >
-    </div>
-    
-    <div class="swiper-slide">
-        <img src="images/word/4.jpg" alt="" >
-    </div>
-    
-    <div class="swiper-slide">
-        <img src="images/word/5.jpg" alt="" >
-    </div>
-    
-    <div class="swiper-slide">
-        <img src="images/word/6.jpg" alt="" >
-    </div>
-    
-    <div class="swiper-slide">
-        <img src="images/word/7.jpg" alt="" >
-    </div>
-    
-    <div class="swiper-slide">
-        <img src="images/word/8.jpg" alt="" >
-    </div>
-    
-    <div class="swiper-slide">
-        <img src="images/word/9.jpg" alt="" >
-    </div>
-    
-    <div class="swiper-slide">
-        <img src="images/word/10.jpg" alt="" >
-    </div>
-    
-    <div class="swiper-slide">
-        <img src="images/word/11.jpg" alt="" >
-    </div>
-    
-    <div class="swiper-slide">
-        <img src="images/word/12.jpg" alt="" >
-    </div>
-    
-    <div class="swiper-slide">
-        <img src="images/word/13.jpg" alt="" >
-    </div>
-    
-    <div class="swiper-slide">
-        <img src="images/word/14.jpg" alt="" >
-    </div>
-    
-    <div class="swiper-slide">
-        <img src="images/word/15.jpg" alt="" >
-    </div>
-    
-    <div class="swiper-slide">
-        <img src="images/word/16.jpg" alt="" >
-    </div>
-    
-    <div class="swiper-slide">
-        <img src="images/word/17.jpg" alt="" >
-    </div>
-    
-    <div class="swiper-slide">
-        <img src="images/word/18.jpg" alt="" >
-    </div>
-    
-    <div class="swiper-slide">
-        <img src="images/word/19.jpg" alt="" >
-    </div>
-    
-    <div class="swiper-slide">
-        <img src="images/word/20.jpg" alt="" >
-    </div>
-    
-    <div class="swiper-slide">
-        <img src="images/word/21.jpg" alt="" >
-    </div>
-    
-    <div class="swiper-slide">
-        <img src="images/word/22.jpg" alt="" >
-    </div>
-    
-    <div class="swiper-slide">
-        <img src="images/word/23.jpg" alt="" >
-    </div>
-    
-    <div class="swiper-slide">
-        <img src="images/word/24.jpg" alt="" >
-    </div>
-    
-    <div class="swiper-slide">
-        <img src="images/word/25.jpg" alt="" >
-    </div>
-    
-    <div class="swiper-slide">
-        <img src="images/word/26.jpg" alt="" >
-    </div>
-    
-    <div class="swiper-slide">
-        <img src="images/word/27.jpg" alt="" >
-    </div>
-    
-    <div class="swiper-slide">
-        <img src="images/word/28.jpg" alt="" >
-    </div>
-    
-    <div class="swiper-slide">
-        <img src="images/word/29.jpg" alt="" >
-    </div>
-    
-    <div class="swiper-slide">
-        <img src="images/word/30.jpg" alt="" >
-    </div>
-    
-    <div class="swiper-slide">
-        <img src="images/word/31.jpg" alt="" >
-    </div>
-    
-    <div class="swiper-slide">
-        <img src="images/word/32.jpg" alt="" >
-    </div>
-    
-    <div class="swiper-slide">
-        <img src="images/word/33.jpg" alt="" >
-    </div>
-    
-    <div class="swiper-slide">
-        <img src="images/word/34.jpg" alt="" >
-    </div>
-    
-    <div class="swiper-slide">
-        <img src="images/word/35.jpg" alt="" >
-    </div>
-    
-    <div class="swiper-slide">
-        <img src="images/word/36.jpg" alt="" >
-    </div>
-    
-    <div class="swiper-slide">
-        <img src="images/word/37.jpg" alt="" >
-    </div>
-    
-    <div class="swiper-slide">
-        <img src="images/word/38.jpg" alt="" >
-    </div>
-    
-    <div class="swiper-slide">
-        <img src="images/word/39.jpg" alt="" >
-    </div>
-    
-    <div class="swiper-slide">
-        <img src="images/word/40.jpg" alt="" >
-    </div>
-    
-    <div class="swiper-slide">
-        <img src="images/word/41.jpg" alt="" >
-    </div>
-    
-    <div class="swiper-slide">
-        <img src="images/word/42.jpg" alt="" >
-    </div>
-    
-    <div class="swiper-slide">
-        <img src="images/word/43.jpg" alt="" >
-    </div>
-    
-    <div class="swiper-slide">
-        <img src="images/word/44.jpg" alt="" >
-    </div>
-    
-    <div class="swiper-slide">
-        <img src="images/word/45.jpg" alt="" >
-    </div>
-    
-    <div class="swiper-slide">
-        <img src="images/word/46.jpg" alt="" >
-    </div>
-    
-    <div class="swiper-slide">
-        <img src="images/word/47.jpg" alt="" >
-    </div>
-    
-    <div class="swiper-slide">
-        <img src="images/word/48.jpg" alt="" >
-    </div>
-    
-    <div class="swiper-slide">
-        <img src="images/word/49.jpg" alt="" >
-    </div>
-    
-    <div class="swiper-slide">
-        <img src="images/word/50.jpg" alt="" >
-    </div>
-    
-    <div class="swiper-slide">
-        <img src="images/word/51.jpg" alt="" >
-    </div>
-    
-    <div class="swiper-slide">
-        <img src="images/word/52.jpg" alt="" >
-    </div>
-    
-    <div class="swiper-slide">
-        <img src="images/word/53.jpg" alt="" >
-    </div>
-    
-    <div class="swiper-slide">
-        <img src="images/word/54.jpg" alt="" >
-    </div>
-    
-    <div class="swiper-slide">
-        <img src="images/word/55.jpg" alt="" >
-    </div>
-    
-    <div class="swiper-slide">
-        <img src="images/word/56.jpg" alt="" >
-    </div>
-    
-    <div class="swiper-slide">
-        <img src="images/word/57.jpg" alt="" >
-    </div>
-    
-    <div class="swiper-slide">
-        <img src="images/word/58.jpg" alt="" >
-    </div>
-    
-    <div class="swiper-slide">
-        <img src="images/word/59.jpg" alt="" >
-    </div>
-    
-    <div class="swiper-slide">
-        <img src="images/word/60.jpg" alt="" >
-    </div>
-    
+
+        <!-- add by js file -->
     
         </div>
-        <!-- If we need pagination -->
+        
         <div class="swiper-pagination"></div>
     
         </div>
@@ -417,8 +245,11 @@
 
     <section class="links-for-you" id="links-for-you">
         <div class="container">
-            <h1 class="title">روابط تهمك</h1>
-            <p class="text-title">روابط مفيده لك</p>
+            <h1 class="title" data-lang="linksTitle">
+                <span class="title-dot"></span>
+                روابط
+            </h1>
+            <p class="text-title" data-lang="linksText">: ) اضغط .. توصل</p>
             <div class="links-cards" id="links-cards">
 
             </div>
@@ -427,41 +258,46 @@
 
     <section class="work-together" id="work-together">
         <div class="container">
-            <h1 class="title">نتعاون</h1>
-            <p class="text-title">ودك نسوي شيئ مع بعض ؟ حياك و بكل سرور</p>
+            <h1 class="title" data-lang="workTitle">
+                <span class="title-dot"></span>
+                تواصل
+            </h1>
+            <p class="text-title" data-lang="workTextTitle">للتعاون والأعمال أو التواصل</p>
 
             <div class="contact_container">
                 <div class="contact_content">
 
-                    <div class="contact_title">تواصل معي</div>
+                    <!-- <div class="contact_title">تواصل معي</div> -->
                     <div class="contact_info">
                         <div class="contact_card">
                             <i class="bx bx-mail-send contact_card-icon"></i>
-                            <h3 class="contact_card-titel">البريد الأكتروني</h3>
-                            <span class="contact_card-data">Abdullah_Alawi.com</span>
-                            <a href="mailto:abdullah@msafh.com" target="_blank" class="contact_card-link">كلمني</a>
+                            <h3 class="contact_card-titel" data-lang="cardTitel">بريدي الشخصي</h3>
+                            <span class="contact_card-data">Abdullah@msafh.com</span>
+                            <a href="mailto:abdullah@msafh.com" target="_blank" class="contact_card-link" data-lang="cardSend">أرسل</a>
                         </div>
 
                         <div class="contact_card">
                             <i class="bx bx-mail-send contact_card-icon"></i>
-                            <h3 class="contact_card-titel">واتس اب</h3>
-                            <span class="contact_card-data">+966 59 603 6078</span>
-                            <a href="https://api.whatsapp.com/send?phone=966533699194" target="_blank" class="contact_card-link">كلمني</a>
+                            <h3 class="contact_card-titel" data-lang="cardTitelWh">واتس آب</h3>
+                            <span class="contact_card-data">00966533699194</span>
+                            <a href="https://api.whatsapp.com/send?phone=966533699194" target="_blank" class="contact_card-link" data-lang="cardTitelWhSend">تواصل مباشرة</a>
                         </div>
 
                     </div>
                 </div>
                 
                 <div class="contact_content content-phone">
-                    <div class="contact_title">النشره البريديه</div>
-                    <span class="contact_card-data">افكار و تجارب اشاركها على ايميلك (بدون ازعاج)</span>
-                    <form action class="contact_form">
+                    <div class="contact_title" data-lang="contactTitle">النشرة البريدية</div>
+                    <span class="contact_card-data" data-lang="contactEmailText">افكار و تجارب اشاركها على ايميلك (بدون ازعاج)</span>
+                    <form action="https://www.getrevue.co/profile/abdullah_yw/add_subscriber" method="post" id="revue-form" name="revue-form" target="_blank" class="contact_form">
+                        <label for="member_email">
                         <div class="contact_form-div">
                             <div class="contact_form-tag"></div>
-                            <input type="text" placeholder="حط بريدك هنا" class="contact_form-input">
-                            <p>بتأكيدك توافق على <a href="">شروط الخدمة</a> و <a href="">سياسة الخصوصية</a></p>
-                            <button class="button">تأكيد</button>
+                            <input type="email" name="member[email]" id="member_email" placeholder="اكتب بريدك"  class="contact_form-input">
+                            <!-- <p>بتأكيدك توافق على <a href="">شروط الخدمة</a> و <a href="">سياسة الخصوصية</a></p> -->
+                            <input class="button" type="submit" value="تأكيد" name="member[subscribe]" id="member_submit" ></input>
                         </div>
+                    </label>
                     </form>
                 </div>
 
@@ -476,25 +312,11 @@
         <div class="container">
 
             <div class="sponsor-container">
-                <div class="contact_title">شركاء منحوني ثقتهم</div>
+                <div class="contact_title" data-lang="sponsorTitle">شركاء منحوني ثقتهم</div>
             <div class="sponsor_content">
 
-                <img src="images/sponsor/1.png" alt="" class="sponsor-img">
-                <img src="images/sponsor/2.png" alt="" class="sponsor-img">
-                <img src="images/sponsor/3.png" alt="" class="sponsor-img">
-                <img src="images/sponsor/4.png" alt="" class="sponsor-img">
-                <img src="images/sponsor/5.png" alt="" class="sponsor-img">
-                <img src="images/sponsor/6.png" alt="" class="sponsor-img">
-                <img src="images/sponsor/7.png" alt="" class="sponsor-img">
-                <img src="images/sponsor/8.png" alt="" class="sponsor-img">
-                <img src="images/sponsor/9.png" alt="" class="sponsor-img">
-                <img src="images/sponsor/10.png" alt="" class="sponsor-img">
-                <img src="images/sponsor/11.png" alt="" class="sponsor-img">
-                <img src="images/sponsor/12.png" alt="" class="sponsor-img">
-                <img src="images/sponsor/13.png" alt="" class="sponsor-img">
-                <img src="images/sponsor/14.png" alt="" class="sponsor-img">
-                <img src="images/sponsor/15.png" alt="" class="sponsor-img">
-                
+        <!-- add by js file -->
+
             </div>
         </div>
     </div>
@@ -503,21 +325,25 @@
     
     <footer>
         <div class="container">
-            <div class="copyright">
-                جميع الحقوق محفوظة ل عبدالله العلاوي
+            <div class="copyright" data-lang="copyrightText">
+                جميع الحقوق محفوظة لـ د. عبدالله العلاوي
             </div>
             
             <div class="footer-contact_container">
                 
                 <div class="Contact-container">
-                <div class="contact_title">تابعني على وسأل التواصل</div>
+                <div class="contact_title" data-lang="footerContactText">تابعني على وسأل التواصل</div>
                     
                     <div class="footer-socil-icon">
                         <a href="https://twitter.com/Abdullah_yw" target="_blank"><i class="fab fa-twitter"></i></a>
-                        <a href="https://instagram.com/Abdullah_yw"href="https://instagram.com/Abdullah_yw" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://t.snapchat.com/YGRoHDxw" target="_blank"><i class="fa-brands fa-snapchat"></i></a>
                         <a href="https://api.whatsapp.com/send?phone=966533699194" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://instagram.com/Abdullah_yw"href="https://instagram.com/Abdullah_yw" target="_blank"><i class="fab fa-instagram"></i></a>
                         <a href="mailto:abdullah@msafh.com" target="_blank"><i class="fa-regular fa-envelope"></i></a>
                         <a href="https://www.youtube.com/channel/UCUdtq-Fvlw7_NjzduNTZsbg" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://www.tiktok.com/@abdullah_yw?lang=ar" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+                        <a href="https://www.youtube.com/channel/UCkbZRVTQOWqKlTHfYnFUMJQ" target="_blank"><i class="fa-solid fa-microphone"></i></a>
+                        <a href="https://www.youtube.com/channel/UCgz7y_raZ9YpyA3mKqvJTag" target="_blank" class="shorts"></a>
                     </div>
                 
                 </div>
@@ -531,8 +357,8 @@
 
 
     <script src="js/mixitup.min.js"></script>
-    <script src="js/scrollreveal.min.js"></script>
     <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/scrollreveal.min.js"></script>
     <script src="js/main.js"></script>
 
 </body>

@@ -480,5 +480,14 @@ let mixerPortfolio = mixitup('.project_container', {
     }
 });
 
+// /* Link active work */ 
+// const linkWork = document.querySelectorAll('.projects_item')
+
+// function activeWork(){
+//     linkWork.forEach(l=> l.classList.remove('activ_item '))
+//     this.classList.add('activ_item')
+// }
+
+// linkWork.forEach(l=> l.addEventListener('click', activeWork()))
 
 

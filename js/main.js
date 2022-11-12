@@ -246,10 +246,53 @@ selectorLang.onchange = function () {
 /* ==============menu============ */
 
 let icon = document.querySelector(".icon");
+
+let spanOen = document.querySelectorAll("span")[1];
+let spanTwe = document.querySelectorAll("span")[2];
+let spanTree = document.querySelectorAll("span")[3];
+
 let list = document.getElementById("phone-list")
 
+
 icon.onclick = function () {
+
     list.classList.toggle("active")
+
+    if (list.className === "active") {
+
+        spanTwe.style.cssText = `
+        width: 100%;
+        opacity: 0;
+        `;
+    
+        spanOen.style.cssText = `
+        top: 6px;
+        transform: rotate(45deg);
+        `;
+    
+        spanTree.style.cssText = `
+        top: 6px;
+        transform: rotate(-45deg);
+        `;
+
+    } else {
+        spanTwe.style.cssText = `
+        width: 100%;
+        opacity: 1;
+        top: 0;
+        `;
+    
+        spanOen.style.cssText = `
+        top: 6px;
+        transform: rotate(0deg);
+        `;
+    
+        spanTree.style.cssText = `
+        top: 12px;
+        transform: rotate(0deg);
+        `;
+    }
+
 }
 
 
@@ -437,14 +480,5 @@ let mixerPortfolio = mixitup('.project_container', {
     }
 });
 
-// /* Link active work */ 
-// const linkWork = document.querySelectorAll('.projects_item')
-
-// function activeWork(){
-//     linkWork.forEach(l=> l.classList.remove('activ_item '))
-//     this.classList.add('activ_item')
-// }
-
-// linkWork.forEach(l=> l.addEventListener('click', activeWork()))
 
 

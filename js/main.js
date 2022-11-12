@@ -23,12 +23,14 @@ let lang = {
        * بفضل الله تخرجت من برنامج قمم الذي يهدف لتمكين القيادات الواعدة من طلاب وطالبات جامعات المملكة العربية السعودية.<br>
        <br>
        حصلت بتوفيق الله على عدة جوائز .. أهمها : <br>
-       جائزة طبيب الامتياز الأفضل في التواصل – كلية طب الأسنان، جامعة الملك عبدالعزيز ، 2019<br>
-       المركز الأول بمسابقة أفضل فكرة عمل اجتماعي -جائزة الأميرة صيتة باليوم الوطني 88 ،2018<br>
+       جائزة طبيب الامتياز الأفضل في التواصل – كلية طب الأسنان، جامعة الملك عبد العزيز، 2019.<br>
+       المركز الأول بمسابقة أفضل فكرة عمل اجتماعي -جائزة الأميرة صيتة باليوم الوطني 88، 2018.<br>
        المركز الثالث بمسابقة مدينة الملك عبدالعزيز للعلوم والتقنية- لتقديم محتوى إعلامي توعوي مسموع، 2018<br>
        المركز الأول بجائزة وعي - مسار السناب شات، وزارة الصحة السعودية، 2018<br>
        جائزة أم الجود للتوعية بالثقافة العامة – مؤسسة جائزة الأميرة صيتة بنت عبدالعزيز للتميز في العمل الاجتماعي، 2022.<br>
        <br>
+       
+
        <br>
        * وتشرفت بتمثيل المملكة العربية السعودية في عدة محافل:<br>
        - 2019 منتدى شباب العالم بمصر<br>
@@ -69,17 +71,17 @@ let lang = {
         cardTitelWh: "واتس آب",
         cardTitelWhSend: "تواصل مباشرة",
         contactTitle: "النشرة البريدية",
-        contactEmailText: "افكار و تجارب اشاركها على ايميلك (بدون ازعاج)",
+        contactEmailText: "أفكار وتجارب أشاركها على إيميلك (بدون إزعاج)",
         writeEmail: "اكتب بريدك",
         contactBtn: "تأكيد",
         sponsorTitle: "شركاء منحوني ثقتهم",
-        footerContactText: "تابعني على وسأل التواصل",
+        footerContactText: "تابعني على وسائل التواصل",
         copyrightText:"جميع الحقوق محفوظة لـ د. عبدالله العلاوي"
         
     },
 
     en: {
-        headerH2: "Abdullah Alawi",
+        headerH2: "Abdullah AlAlawi",
         contact: "📮 Contact",
         links: "🔗 Links",
         shot: "📸 Shot",
@@ -87,7 +89,7 @@ let lang = {
         myStory: "📝 My story",
         heroWelcome: "Welcome! It’s",
         heroAbdullah: "Abdullah Al-Alawi",
-        heroText: "A dentist and the founder of Masafah’s Community. I work to enhance<br>the quality of my daily life and share it with you via social media platforms.",
+        heroText: "A dentist who founded Masafah Community. I work to enhance<br>the quality of my daily life and share it with you via social media platforms.",
         forMore: "For more",
         aboutTitle: `<span class="title-dot"></span> My Story`,
         storyText: `
@@ -103,9 +105,10 @@ let lang = {
         * With God's help, I graduated from the Qimam Program, which aims to empower future leaders among male and female Saudi Arabian university students.<br>
         <br>
         By God's grace, I have received a number of awards, the most significant of which are:<br>
-        Doctor of Excellence Award for Best Communication - College of Dentistry, King Abdulaziz University, 2019.<br>
-        First place in the competition for the best social work idea - Princess Seetah Prize on the 88th National Day, 2018.
-        excellence in social work<br>
+
+        Best Doctor in Communicating Award (Internship Year), College of Dentistry, King Abdulaziz University, 2019.<br>
+
+        First place in the competition for the best social work idea, Princess Seetah Prize on the 88th National Day, 2018.<br>
 
         Third Place in competition for providing audible awareness media content, King Abdulaziz City for Science and Technology, 2018.<br>
         First place in the Wa’ai Award – on SnapChat, Saudi Ministry of Health, 2018.<br>
@@ -309,17 +312,25 @@ fetch(`https://api.allorigins.win/get?url=${encodeURIComponent('https://linktr.e
 
         
         let linkTer  = data.contents;
-        
-        
-        
-for (let i = 0; i < linkTer.length; i++) {
 
-    let myLinks = document.createElement('a');
-    let myLinksTitle = linkTer.slice(i, i + 250).split("<")[0].slice(4);
-    let myLinksText = document.createTextNode(myLinksTitle);
 
-    if (linkTer.slice(i, i+ 4) === 'rP">') {
+let linktreeBody = linkTer.slice(linkTer.indexOf("<body>"));
+
+
+for (let i = 0; i < linktreeBody.length; i++) {
+    
+    if ( linktreeBody.slice(i, i+ 10) === `<a href="h` ) {
+
+        let rangeA = linktreeBody.slice(i, i+350);
+        let getA = rangeA.slice(rangeA.indexOf(`<a href="h`), rangeA.indexOf("</a>"));
+        let getP = getA.slice(getA.indexOf("<p"), getA.indexOf("</p>"));
+        var getLinks = getA.split(`"`)[1];
+
         
+        let myLinks = document.createElement('a');
+        let myLinksTitle = getP.slice(getP.indexOf(">") + 1);
+        let myLinksText = document.createTextNode(myLinksTitle);
+
         myLinks.className = "links";
 
         myLinks.appendChild(myLinksText)
@@ -339,21 +350,18 @@ for (let i = 0; i < linkTer.length; i++) {
         justify-content: center;
         text-align: center;
         cursor: pointer;
-        `;
-
-    } else {
-        // console.log("not fine")
-    }
-
-    
-    if (linkTer.slice(i, i+ 12) === '<a href="htt') {
-
-        var getLinks = linkTer.slice(i, i + 200).split(`"`)[1].split(' ')[0]
-
+        `;        
     }
     
-}
+};
+
+        
+        
+        
 });
+
+
+
 
 
 /* ===========swiper=========== */
@@ -414,15 +422,5 @@ let mixerPortfolio = mixitup('.project_container', {
         duration: 300
     }
 });
-
-// /* Link active work */ 
-// const linkWork = document.querySelectorAll('.projects_item')
-
-// function activeWork(){
-//     linkWork.forEach(l=> l.classList.remove('activ_item '))
-//     this.classList.add('activ_item')
-// }
-
-// linkWork.forEach(l=> l.addEventListener('click', activeWork()))
 
 

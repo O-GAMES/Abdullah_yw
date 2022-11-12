@@ -12,45 +12,55 @@ let lang = {
         forMore: "للمزيد",
         aboutTitle: `<span class="title-dot"></span> قصتي`,
         storyText: `
-        حياااك الله من جديد <br>
-        معك عبدالله العلاوي طبيب أسنان سعودي <br>
-       وفي الوقت الحالي أعمل يوميا على تحسين حياتي 🚀<br>
-       صحيح أنّ رحلة التحسين شاقة وغير منتهية ولكنّها أيضاً ممتعة، وبوجودك معي فإن التأثير يتعداني ويصل للجميع…وهذا هو الهدف الحقيقي من كل شي!<br>
-       <br>
-       أهم محطات الرحلة كانت:<br>
-       * مجتمع مسافة الذي يهدف إلى تقريب المسافة بين شخصيتك المستقبلية والحالية من خلال معسكرات وورش عمل أو تحديات نطلقها باستمرار <br>
-       * على الصعيد الأكاديمي أسست مبادرة "أنت أنا" التي ساعدت آلاف الطلاب بحمدالله وفضله، ثم بتعاون طلاب الجامعات بالسعودية وخارجها مع طلبة الثانوية بكل حب للعطاء 🎓<br>
-       * بفضل الله تخرجت من برنامج قمم الذي يهدف لتمكين القيادات الواعدة من طلاب وطالبات جامعات المملكة العربية السعودية.<br>
-       <br>
-       حصلت بتوفيق الله على عدة جوائز .. أهمها : <br>
-       جائزة طبيب الامتياز الأفضل في التواصل – كلية طب الأسنان، جامعة الملك عبد العزيز، 2019.<br>
-       المركز الأول بمسابقة أفضل فكرة عمل اجتماعي -جائزة الأميرة صيتة باليوم الوطني 88، 2018.<br>
-       المركز الثالث بمسابقة مدينة الملك عبدالعزيز للعلوم والتقنية- لتقديم محتوى إعلامي توعوي مسموع، 2018<br>
-       المركز الأول بجائزة وعي - مسار السناب شات، وزارة الصحة السعودية، 2018<br>
-       جائزة أم الجود للتوعية بالثقافة العامة – مؤسسة جائزة الأميرة صيتة بنت عبدالعزيز للتميز في العمل الاجتماعي، 2022.<br>
-       <br>
-       
-
-       <br>
-       * وتشرفت بتمثيل المملكة العربية السعودية في عدة محافل:<br>
-       - 2019 منتدى شباب العالم بمصر<br>
-       - 2018 برنامج القيادات الإعلامية العربية الشابة بالإمارات<br>
-       - 2018 سفير برنامج MBC الأمل بالجامعات السعودية<br>
-       - 2019 مثّلت وبكل فخر خريجي جامعة الملك عبدالعزيز <a href="https://youtu.be/iv5aLFR566s" target="_blank">بكلمة الخريجين</a> بالحفل السنوي <br>
-       <br>
-       * قدمت محاضرات وخطابات تعليمية لكن يبقى أقربها لقلبي حتى اليوم: <br>
-       <a href="https://youtu.be/foBHMKhSHu4 " target="_blank">TedxKau</a> بجامعة الملك عبدالعزيز خطاب: اسمع العالم صوتك  🌍<br>
-       <br>
-       *شاركت بتقديم ورش عمل:<br>
-       - مسك المهارات<br>
-       -  TEDx جامعة طيبة واليوم الوطني فيها.br>
-       - مؤتمر اليوم العالمي للتطوع بمنطقة المدينة المنورة <br>
-       -2019,2022 سلسلة ورشة عمل (صناعة التوعية الصحية) حول مدن السعودية <br>
-       <br>
-       <br>
-       روتين التسعين هو المشروع الأهم بختام 2022م وبداية 2023 م بإذن الله <br>
-       <br>
-        والرحلة مستمرة بإذن الله…<br>`,
+        
+        حياااك الله من جديد!<br>
+        معك عبدالله العلاوي، طبيب أسنان سعودي<br>
+        وفي الوقت الحالي أعمل يوميًّا على تحسين حياتي. 🚀<br>
+        صحيح أنّ رحلة التحسين شاقّة وغير منتهية، ولكنّها أيضًا ممتعة! <br>
+        وبوجودك معي، فإنّ التأثير يتعداني ويصل إلى الجميع… وهذا هو الهدف الحقيقي من كل شي!<br>
+        
+        <br>
+        • أهمّ محطات الرحلة كانت:<br>
+        <br>
+        - تأسيس مجتمع مسافة، الذي يهدف إلى تقريب المسافة بين شخصيتك المستقبلية والحالية من خلال معسكرات وورش عمل وتحديات نطلقها باستمرار.<br>
+        - تأسيس مبادرة "أنت أنا"، والتي - على الصعيد الأكاديمي - ساعدت آلاف الطلاب، ثم انضمّ طلاب الجامعات من السعودية وخارجها للتعاون مع طلبة الثانوية بكل حب للعطاء. 🎓 <br>
+        - التخرّج من برنامج قمم الذي يهدف إلى تمكين القيادات الواعدة من طلاب وطالبات جامعات المملكة العربية السعودية.<br>
+        
+        <br>
+        • حصلت على عدة جوائز، أهمها :<br>
+        <br>
+        - جائزة الأميرة صيتة في اليوم الوطني 88 – للفوز بالمركز الأول بمسابقة أفضل فكرة عمل اجتماعي، 2018.<br>
+        - جائزة تقديم محتوى إعلامي توعوي مسموع – للفوز بالمركز الثالث بمسابقة مدينة الملك عبدالعزيز للعلوم والتقنية، 2018.<br>
+        - جائزة وعي – الفوز بالمركز الأول- مسار السناب شات، وزارة الصحة السعودية، 2018.<br>
+        - جائزة طبيب الامتياز الأفضل في التواصل – كلية طب الأسنان، جامعة الملك عبدالعزيز، 2019.<br>
+        - جائزة أم الجود للتوعية بالثقافة العامة، مؤسسة جائزة الأميرة صيتة بنت عبدالعزيز للتميز في العمل الاجتماعي، 2022.<br>
+        
+        <br>
+        • تشرفت - وبكلّ فخر - بتمثيل المملكة العربية السعودية في عدة محافل، منها:<br>
+        <br>
+        - 2018، برنامج القيادات الإعلامية العربية الشابة بالإمارات.<br>
+        - 2018، سفير برنامج MBC الأمل بالجامعات السعودية.<br>
+        - 2019، منتدى شباب العالم بمصر.<br>
+        - 2019، <a href="https://youtu.be/iv5aLFR566s" target="_blank">كلمة الخريجين</a> بالحفل السنوي، جامعة الملك عبدالعزيز.<br>
+        
+        <br>
+        • قدمت محاضرات وخطابات تعليمية، لكن أقربها إلى قلبي حتى اليوم:<br>
+        خطاب "أسمع العالم صوتك" في برنامج <a href="https://youtu.be/foBHMKhSHu4 " target="_blank">TEDxKAU</a>، جامعة الملك عبد العزيز.<br>
+        <br>
+        • شاركت بتقديم ورش عمل، منها: <br>
+        <br>
+        - مسك المهارات.<br>
+        - TEDx، اليوم الوطني في جامعة طيبة.<br>
+        - مؤتمر اليوم العالمي للتطوع، منطقة المدينة المنورة.<br>
+        - 2019- 2022، سلسلة ورشة عمل (صناعة التوعية الصحية) حول مدن السعودية.<br>
+        
+        <br>
+        • بختام 2022م وبداية 2023م، "روتين التسعين" هو المشروع الأهم لمسافة ومجتمعها.<br>
+        
+        <br>
+        وكلّ هذا بفضل الله وكرمه؛<br>
+        وبإذنه، فالرحلة تستمر... <br>
+        `,
         projectsTitle: `<span class="title-dot"></span> أعمالي`,
         all: "الكل",
         vdieos: "فيديوهات",
@@ -81,12 +91,12 @@ let lang = {
     },
 
     en: {
-        headerH2: "Abdullah AlAlawi",
+        headerH2: "Abdullah Al-Alawi",
         contact: "📮 Contact",
         links: "🔗 Links",
         shot: "📸 Shot",
-        myWorks: "📍 My works",
-        myStory: "📝 My story",
+        myWorks: "📍 My Works",
+        myStory: "📝 My Story",
         heroWelcome: "Welcome! It’s",
         heroAbdullah: "Abdullah Al-Alawi",
         heroText: "A dentist who founded Masafah Community. I work to enhance<br>the quality of my daily life and share it with you via social media platforms.",
@@ -94,50 +104,50 @@ let lang = {
         aboutTitle: `<span class="title-dot"></span> My Story`,
         storyText: `
         Welcome again!<br>
-        It’s Abdullah Al-Alawi, a Saudi dentist.<br>
-        Currently, I am working on improving my life 🚀<br>
-        It’s true that the journey of self-improvement is challenging and never-ending but it’s also enjoyable! And with you by my side, the impact extends far beyond myself, which is the actual goal of it all!<br>
-        <br>
-        * The significant stations of my life are:<br>
-        * Masafah Community, which seeks to bridge the gap between your future and present selves by continuously offering online camps, workshops, and challenges.<br>
-        * 
-        On the academic level, I founded the “Anta Ana” initiative, which, by the grace of God, and in cooperation with university students from Saudi Arabia and abroad, out of a love of giving, has helped thousands of high school students.<br>
-        * With God's help, I graduated from the Qimam Program, which aims to empower future leaders among male and female Saudi Arabian university students.<br>
-        <br>
-        By God's grace, I have received a number of awards, the most significant of which are:<br>
+It’s Abdullah Al-Alawi, a Saudi dentist.<br>
+Currently, I am working on improving my life. 🚀<br>
+It's true that self-improvement is a tough and never-ending journey, but it's also enjoyable! And having you by my side, the impact extends far beyond myself, which is the actual goal of this endeavor!<br>
+<br>
+    • Significant milestones in my life include:<br>
+<br>
+    - Founding Masafah Community, which seeks to bridge the gap between your future and present selves by continuously offering online camps, workshops, and challenges.<br>
+    - Founding the "Anta Ana" initiative, which, in cooperation with university students from Saudi Arabia and abroad and out of a love of giving, has helped thousands of high school students on an academic level.<br>
+    - Graduation from the Qimam program, which strives to empower future leaders among male and female university students in the Kingdom of Saudi Arabia.<br>
+<br>
+    • I have received a number of awards, the most significant of which are:<br>
+<br>
+    - Princess Seetah Award on the 88th National Day - for winning first place in the competition for the best social work idea, 2018.<br>
+    - Award for providing audible awareness media content - for winning third place in the King Abdulaziz City for Science and Technology competition, 2018.<br>
+    - Wa’ai Award- Winning first place–  Snapchat track, Saudi Ministry of Health, 2018.<br>
+    - Doctor of Excellence Award for Best Communication–  College of Dentistry, King Abdulaziz University, 2019.<br>
+    - Umm Al-Joud Award for creating general awareness of social responsibility needs in society - Foundation of the Princess Seetah bint Abdulaziz Award for Excellence in Social Work, 2022.<br>
+<br>
+    • I had the great honor and pride to represent the Kingdom of Saudi Arabia in a number of forums, including:<br>
 
-        Best Doctor in Communicating Award (Internship Year), College of Dentistry, King Abdulaziz University, 2019.<br>
-
-        First place in the competition for the best social work idea, Princess Seetah Prize on the 88th National Day, 2018.<br>
-
-        Third Place in competition for providing audible awareness media content, King Abdulaziz City for Science and Technology, 2018.<br>
-        First place in the Wa’ai Award – on SnapChat, Saudi Ministry of Health, 2018.<br>
-        Umm Al-Joud Award for creating general awareness of social responsibility needs in society - Foundation of the Princess Seetah bint Abdulaziz Award for Excellence in Social Work, 2022.<br>
-        <br>
-        <br>
-        I had the honor to represent the Kingdom of Saudi Arabia in several forums:<br>
-        - 2019 World Youth Forum in Egypt,.<br>
-        - 2018 Young Arab Media Leaders Program in the Emirates,.<br>
-        - 2018 Ambassador of the MBC Al-Amal Program in Saudi universities<br>
-        - 2019 Proudly represented the graduates of King Abdulaziz University with the alumni <a href="https://youtu.be/iv5aLFR566s" target="_blank">speech</a> at the annual ceremony.<br>
-        <br>
-        * I've given lectures and educational speeches, but the one that remains dearest to my heart is "Let the World Hear Your Voice 🌍" at <a href="https://youtu.be/foBHMKhSHu4 " target="_blank">TEDxKAU</a>, King Abdulaziz University.<br>
-        <br>
-        * Participated in providing workshops:<br>
-        - Misk Skills,<br>
-        - Master of Ceremonies at TEDxTaibahU, on the National Day at Taibah University.<br>
-        - The International Volunteer Day Conference in Al-Madinah Al-Munawwarah.<br>
-        <br>
-        <br>
-        God willing, "The Routine of the Ninety Days" will be Masafah's most important project (from the end of 2022 until the beginning of 2023).<br>
-        <br>
-        And the journey continues, God willing...
+    - 2018, Young Arab Media Leaders Program in the Emirates.<br>
+    - 2018, The ambassador of the MBC Al-Amal Program in Saudi universities.<br>
+    - 2019, World Youth Forum in Egypt.<br>
+    - 2019, <a href="https://youtu.be/iv5aLFR566s" target="_blank">Alumni speech</a> at the annual ceremony, King Abdulaziz University.<br>
+<br>
+    • I've given lectures and educational speeches, but the one that remains dearest to my heart is:<br>
+"Let the World Hear Your Voice 🌍" at <a href="https://youtu.be/foBHMKhSHu4 " target="_blank">TEDxKAU</a>, King Abdulaziz University.<br>
+<br>
+    • Participated in providing workshops:<br>
+    - Misk Skills.<br>
+    - Master of Ceremonies at TEDxTaibahU, on the National Day at Taibah University.<br>
+    - The International Volunteer Day Conference in Al-Madinah Al-Munawwarah.<br>
+    - Health Awareness Workshop Series in Saudi Cities, 2019-2022.<br>
+<br>
+    • God willing, "The Routine of the Ninety Days" is the most significant endeavor for Masafah and its community between the end of 2022 and the beginning of 2023.<br>
+<br>
+All of this is thanks to Allah's generosity and grace;<br>
+and by His will, the journey continues...
         `,
         projectsTitle: `<span class="title-dot"></span> My Works`,
         all: "All",
-        vdieos: "Vdieos",
+        vdieos: "Videos",
         courses: "Courses",
-        blog: "blog",
+        blog: "Blog",
         projectCardCourse: "Productivity Journey Course",
         articlOne: "10 Things I Have Given up on in<br> My Life",
         articlTwo: "The Habit of Waking Up Early",
@@ -156,7 +166,7 @@ let lang = {
         contactEmailText: "To share thoughts and experiences with you<br>via email (without disturbance)",
         writeEmail: "Enter your Email",
         contactBtn: "Confirm",
-        sponsorTitle: "Partners who have placed their confidence in me:",
+        sponsorTitle: "Partners who have placed their confidence in me",
         footerContactText: "Follow me on social media platforms",
         copyrightText:"All rights reserved to Dr. Abdullah Al-Alawi"
     }
@@ -246,7 +256,9 @@ icon.onclick = function () {
 /* ===========Slide img=========== */
 let swiperWrapper = document.querySelector('.swiper-wrapper');
 
-for (let i = 1; i <= 60; i++) {
+let shot_num = 60;
+
+for (let i = 1; i <= shot_num; i++) {
     
     let swiperSlide = document.createElement('div');
     let imgSlide = document.createElement('img');
@@ -263,7 +275,9 @@ for (let i = 1; i <= 60; i++) {
 
 /* ===========sponsor img=========== */
 
-for (let i = 1; i <= 20; i++) {
+let sponsor_num = 20;
+
+for (let i = 1; i <= sponsor_num; i++) {
     
     let sponsorContent = document.querySelector('.sponsor_content');
     let imgSponsor = document.createElement('img');
@@ -422,5 +436,15 @@ let mixerPortfolio = mixitup('.project_container', {
         duration: 300
     }
 });
+
+// /* Link active work */ 
+// const linkWork = document.querySelectorAll('.projects_item')
+
+// function activeWork(){
+//     linkWork.forEach(l=> l.classList.remove('activ_item '))
+//     this.classList.add('activ_item')
+// }
+
+// linkWork.forEach(l=> l.addEventListener('click', activeWork()))
 
 

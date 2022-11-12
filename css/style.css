@@ -931,35 +931,40 @@ header ul li {
 }
 .container .icon {
     width: 30px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    
+    height: 21px;
+    display: block;
+    position: relative;
 }
 
 .container .icon span {
     background-color: var(--second-color);
     margin-bottom: 5px;
     height: 2px;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    transition: var(--transition-duration);
 
 }
 
 .container  .icon span:first-child {
     width: 100%;
+    top: 0;
 }
 
 .container .icon span:nth-child(2) {
-    width: 60%;
+    width: 100%;
     transition: var(--transition-duration);
+    top: 6px;
+
 }
 
 .container .icon span:last-child {
     width: 100%;
+    top: 12px;
+
 }
 
-.container .icon:hover span:nth-child(2) {
-    width: 100%;
-}
 
 
     

@@ -447,29 +447,7 @@ let swiperTestimonial = new Swiper(".swiper", {
         },
     });
 
-/* ===========ScrollReveal=========== */
-
-const sr = ScrollReveal({
-    distance: "50px",
-    duration: 3000,
-    delay: 110,
-    // rest: true
-});
-
-// sr.reveal(``, {})
-
-sr.reveal(`#hero-img, .title, .story-text, .contact_card, .copyright, .footer-socil-icon`, { interval: 100, origin: "left"});
-
-// sr.reveal(``, { origin: "top"});
-
-
-sr.reveal(`#hero-text-p, #hero-text-h4, #hero-text-h1, #about-img, .text-title, .contact_form, .contact_title`, { origin: "rigth", interval: 100 });
-
-    sr.reveal(`.socil-icon, .hero, .project_card, .btn, .swiper, .projects_filters, .contact_content, .sponsor, .sponsor_content, .links`, { origin: "bottom", interval: 100 });
-
-
-
-/* ====================== */
+/* ===========mixitup=========== */
 
 let mixerPortfolio = mixitup('.project_container', {
     selectors: {

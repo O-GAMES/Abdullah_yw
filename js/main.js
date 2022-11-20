@@ -1,3 +1,9 @@
+
+
+/* ============== Language / US,AR =============== */
+
+// Put the sentences here 
+
 let lang = {
     ar: {
         headerH2: "عبدالله العلاوي",
@@ -66,10 +72,18 @@ let lang = {
         vdieos: "فيديوهات",
         courses: "دورات",
         blog: "المدونة",
-        projectCardCourse: "دورة رحلة الإنتاجية",
+        projectCardCourse1: "دورة رحلة الإنتاجية",
+        projectCardCourse2: "كيف تبني نظام إنتاجية بسيط وفعال؟",
+        projectCardCourse3: "كيف تتخلص من التشتت والإرهاق وتضاعف تركيزك ونشاطك؟",
+        projectCardCourse4: "كيف تتخلص من الفوضى وتدير وقتك وترتب أولوياتك؟",
+        projectCardCourse5: "كيف تبني عادات إيجابية وتتخلص من التسويف والمثالية؟",
+        projectCardCourse6: "تحدي 1% برمضان",
         articlOne: "عشر أمور تركتها من حياتي",
         articlTwo: "عادة الاستيقاظ المبّكر؟",
         articlThree: "التدوين اليومي .. علاج فعّال", 
+        articl4: "بداية يوم جديد", 
+        articl5: "غفوة الدوام !", 
+        articl6: "تطبيقات مجانية تساعدك بالتعلّم", 
         worldTitle: `<span class="title-dot"></span> لقطة`,
         shotText: "تختصر المعنى",
         linksTitle: `<span class="title-dot"></span> روابط`,
@@ -86,8 +100,7 @@ let lang = {
         contactBtn: "تأكيد",
         sponsorTitle: "شركاء منحوني ثقتهم",
         footerContactText: "تابعني على وسائل التواصل",
-        copyrightText:"جميع الحقوق محفوظة لـ د. عبدالله العلاوي"
-        
+        copyrightText:"جميع الحقوق محفوظة لـ د. عبدالله العلاوي",
     },
 
     en: {
@@ -148,10 +161,18 @@ and by His will, the journey continues...
         vdieos: "Videos",
         courses: "Courses",
         blog: "Blog",
-        projectCardCourse: "Productivity Journey Course",
+        projectCardCourse1: "Productivity Journey Course",
+        projectCardCourse2: "How to build a simple and effective productive system ?",
+        projectCardCourse3: "How to get rid of distraction and fatigue and double your focus and activity?",
+        projectCardCourse4: "How to get rid of chaos, manage your time and prioritize?",
+        projectCardCourse5: "How to build positive habits and get rid of procrastination and idealism?",
+        projectCardCourse6: "1% challenge in Ramadan",
         articlOne: "10 Things I Have Given up on in<br> My Life",
         articlTwo: "The Habit of Waking Up Early",
         articlThree: "Daily Blogging", 
+        articl4: "The beginning of a new day", 
+        articl5: "Work nap!", 
+        articl6: "Free apps to help you learn",
         worldTitle: `<span class="title-dot"></span> Shot`,
         shotText: "",
         linksTitle: `<span class="title-dot"></span> Links`,
@@ -204,6 +225,16 @@ selectorLang.onchange = function () {
         `;
         
         
+
+        for (let i = 0; i < document.querySelectorAll('.card-text').length; i++) {
+            
+            document.querySelectorAll('.card-text')[i].style.cssText = `
+        flex-direction: row-reverse;
+        `;
+        };
+
+
+
         for (let i = 0; i < document.querySelectorAll('.title-dot').length; i++) {
             
             document.querySelectorAll('.title-dot')[i].style.cssText = `
@@ -214,7 +245,13 @@ selectorLang.onchange = function () {
         };
 
 
-        document.getElementById('cardH').style.cssText = `direction: ltr`;
+        for (let i = 0; i < document.querySelectorAll('.cardH').length; i++) {
+            document.querySelectorAll('.cardH')[i].style.cssText = `
+        direction: ltr;
+        text-align: left;
+        `;
+            
+        }
 
 
     } else {
@@ -237,13 +274,29 @@ selectorLang.onchange = function () {
         margin-right: 3rem;
         `;
 
+
+        for (let i = 0; i < document.querySelectorAll('.card-text').length; i++) {
+            
+            document.querySelectorAll('.card-text')[i].style.cssText = `
+        flex-direction: row;
+        `;
+        };
+
+        for (let i = 0; i < document.querySelectorAll('.cardH').length; i++) {
+            document.querySelectorAll('.cardH')[i].style.cssText = `
+            direction: rlt;
+            text-align: rigth;
+        `;
+            
+        }
+
     }
 
 
 }
 
 
-/* ==============menu============ */
+/* ============== menu phone ============== */
 
 let icon = document.querySelector(".icon");
 
@@ -296,44 +349,9 @@ icon.onclick = function () {
 }
 
 
-/* ===========Slide img=========== */
-let swiperWrapper = document.querySelector('.swiper-wrapper');
-
-let shot_num = 60;
-
-for (let i = 1; i <= shot_num; i++) {
-    
-    let swiperSlide = document.createElement('div');
-    let imgSlide = document.createElement('img');
-    
-    swiperSlide.className = 'swiper-slide';
-    
-    imgSlide.src = `images/word/${i}.jpg`;
-    
-    swiperSlide.appendChild(imgSlide);
-    swiperWrapper.appendChild(swiperSlide);
-    
-    
-}
-
-/* ===========sponsor img=========== */
-
-let sponsor_num = 20;
-
-for (let i = 1; i <= sponsor_num; i++) {
-    
-    let sponsorContent = document.querySelector('.sponsor_content');
-    let imgSponsor = document.createElement('img');
-    
-    imgSponsor.className = 'sponsor-img';
-    imgSponsor.src = `images/sponsor/${i}.png`;
-    
-    sponsorContent.appendChild(imgSponsor);
-    
-}
+/* ============ youtube videos ============  #new_video function   */
 
 
-/* ============youtube videos========== */
 const loadVideo = (iframe) => {
     const cid = "UCUdtq-Fvlw7_NjzduNTZsbg";
     const channelURL = encodeURIComponent(`https://www.youtube.com/feeds/videos.xml?channel_id=${cid}`)
@@ -357,7 +375,7 @@ for (let i = 0, len = iframes.length; i < len; i++) {
 }
 
 
-/* ===========get links=========== */
+/* =========== get links from linktree =========== */ 
 
 fetch(`https://api.allorigins.win/get?url=${encodeURIComponent('https://linktr.ee/Abdullah_yw')}`)
 .then(
@@ -390,12 +408,12 @@ for (let i = 0; i < linktreeBody.length; i++) {
 
         myLinks.className = "links";
 
-        myLinks.appendChild(myLinksText)
+        myLinks.appendChild(myLinksText);
 
-        document.getElementById('links-cards').appendChild(myLinks)
+        document.getElementById('links-cards').appendChild(myLinks);
 
-        myLinks.setAttribute("href", getLinks)
-        myLinks.setAttribute("target", "_blank")
+        myLinks.setAttribute("href", getLinks);
+        myLinks.setAttribute("target", "_blank");
 
         myLinks.style.cssText = `
         padding: 1.5rem;
@@ -407,21 +425,17 @@ for (let i = 0; i < linktreeBody.length; i++) {
         justify-content: center;
         text-align: center;
         cursor: pointer;
+        font-size: 1.2rem;
         `;        
     }
     
 };
 
-        
-        
-        
 });
 
 
 
-
-
-/* ===========swiper=========== */
+/* =========== swiper =========== */
 
 let swiperTestimonial = new Swiper(".swiper", {
     spaceBetween: 20,
@@ -437,8 +451,8 @@ let swiperTestimonial = new Swiper(".swiper", {
     dynamicBullets: true,
     },
     breakpoints: {
-        576: {
-        slidesPerView: 3,
+        530: {
+        slidesPerView: 2,
         },
         768: {
         slidesPerView: 3,
@@ -447,7 +461,9 @@ let swiperTestimonial = new Swiper(".swiper", {
         },
     });
 
-/* ===========mixitup=========== */
+
+
+/* =========== mixitup =========== */
 
 let mixerPortfolio = mixitup('.project_container', {
     selectors: {
@@ -457,15 +473,4 @@ let mixerPortfolio = mixitup('.project_container', {
         duration: 300
     }
 });
-
-// /* Link active work */ 
-// const linkWork = document.querySelectorAll('.projects_item')
-
-// function activeWork(){
-//     linkWork.forEach(l=> l.classList.remove('activ_item '))
-//     this.classList.add('activ_item')
-// }
-
-// linkWork.forEach(l=> l.addEventListener('click', activeWork()))
-
 

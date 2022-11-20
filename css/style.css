@@ -1,7 +1,7 @@
 /* start variables */
 :root {
     --main-color: #008cff;
-    --main-color-dark: var(--main-color-dark);
+    --main-color-dark:#0077ff;
     --second-color: #363636;
     --section-backgrond: #f6f6f6;
     --section-padding: 2.8rem;
@@ -241,7 +241,7 @@ font-family: BalooBhaijaan2b;
 } 
 
 .btn {
-    padding: 14px 20px;
+    padding: 16px 20px;
     background-color: var(--main-color);
     display: inline-block;
     border-radius: 15px;
@@ -252,14 +252,12 @@ font-family: BalooBhaijaan2b;
     margin-bottom: 10px;
     text-align: center;
     transition: var(--transition-duration);
-    /* border: 1px solid var(--main-color); */
-    width: 215px;
-
+    width: 247px;
 }
 
 .btn:hover {
     background-color:  var(--main-color-dark);; 
-    /* color: var(--main-color-dark); */
+
 }
 
 .hero .socil-icon {
@@ -297,7 +295,7 @@ font-family: BalooBhaijaan2b;
 .hero .socil-icon a {
     color: var(--second-color);
     transition: var(--transition-duration) ease;
-    margin-left: 0.47rem;
+    margin-left: 0.7rem;
 }
 
 .hero .socil-icon a:hover {
@@ -385,7 +383,7 @@ color: black;
 }
 
 .about .btn:hover {
-    background-color:  var(--main-color-dark);
+    background-color: var(--main-color-dark);
 }
 
 .about .border-btn{
@@ -465,12 +463,6 @@ color: black;
 .project_card .card-text {
     max-width: 100%;
     width: 310px;
-}
-
-
-.card-text span {
-    text-align: end;
-    padding: 0 5px;
 }
 
 .project_card img {

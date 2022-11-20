@@ -84,6 +84,9 @@ let lang = {
         articl4: "بداية يوم جديد", 
         articl5: "غفوة الدوام !", 
         articl6: "تطبيقات مجانية تساعدك بالتعلّم", 
+        articl7: "فقدت الشغف .. وكذا تجاوزته",
+        articl8: "كيف تكون لصاً لقلوب الناس؟",
+        articl9: "عشر قناعات تغيرت بحياتي",
         worldTitle: `<span class="title-dot"></span> لقطة`,
         shotText: "تختصر المعنى",
         linksTitle: `<span class="title-dot"></span> روابط`,
@@ -173,6 +176,9 @@ and by His will, the journey continues...
         articl4: "The beginning of a new day", 
         articl5: "Work nap!", 
         articl6: "Free apps to help you learn",
+        articl7: "I lost the passion .. and that's how I passed it",
+        articl8: "How to be a thief for people's hearts?",
+        articl9: "Ten convictions have changed in my life",
         worldTitle: `<span class="title-dot"></span> Shot`,
         shotText: "",
         linksTitle: `<span class="title-dot"></span> Links`,
@@ -347,6 +353,7 @@ icon.onclick = function () {
     }
 
 }
+
 
 
 /* ============ youtube videos ============  #new_video function   */

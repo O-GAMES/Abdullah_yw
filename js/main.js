@@ -104,6 +104,7 @@ let lang = {
         sponsorTitle: "شركاء منحوني ثقتهم",
         footerContactText: "تابعني على وسائل التواصل",
         copyrightText:"جميع الحقوق محفوظة لـ د. عبدالله العلاوي",
+        
     },
 
     en: {
@@ -195,7 +196,9 @@ and by His will, the journey continues...
         contactBtn: "Confirm",
         sponsorTitle: "Partners who have placed their confidence in me",
         footerContactText: "Follow me on social media platforms",
-        copyrightText:"All rights reserved to Dr. Abdullah Al-Alawi"
+        copyrightText:"All rights reserved to Dr. Abdullah Al-Alawi",
+
+        
     }
 }
 
@@ -353,7 +356,6 @@ icon.onclick = function () {
     }
 
 }
-
 
 
 /* ============ youtube videos ============  #new_video function   */

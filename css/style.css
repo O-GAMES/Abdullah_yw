@@ -37,16 +37,6 @@
 /* start globel rules */
 
 
-@font-face {
-    font-family: "BalooBhaijaan";
-    src: url("../fonts/BalooBhaijaan2-VariableFont_wght.ttf");
-}
-
-@font-face {
-    font-family: "BalooBhaijaan2b";
-    src: url("../fonts/BalooBhaijaan2-ExtraBold.ttf");
-}
-
 
 
 * {
@@ -60,7 +50,7 @@ html {
 }
 
 body {
-    font-family: "BalooBhaijaan" ;
+    font-family:'Baloo Bhaijaan 2', cursive;
 }
 
 section {
@@ -98,7 +88,7 @@ img {
 
 .title {
     font-size: var(--big-font-size);
-    font-family: BalooBhaijaan2b;
+     font-weight: 900;
     position: relative;
     display: flex;
     align-items: center;
@@ -151,7 +141,7 @@ header .container {
 
 header .logo {
     color: var(--main-color);
-    font-family: BalooBhaijaan2b;
+     font-weight: 900;
     font-size: 1.6rem;
 }
 
@@ -185,7 +175,7 @@ header ul li a:hover {
     widows: 10px;
     list-style: none;
     /* overflow: hidden; */
-    font-family: 'BalooBhaijaan';
+     
 }
 
 .container .icon {
@@ -230,7 +220,7 @@ display: none;
 color: var(--main-color);
 margin: 10px 0px;
 font-size: 3.2rem;
-font-family: BalooBhaijaan2b;
+ font-weight: 900;
 }
 
 .hero p {
@@ -247,7 +237,7 @@ font-family: BalooBhaijaan2b;
     border-radius: 15px;
     color: white;
     font-size: 1.2rem;
-    font-weight: bold;
+     font-weight: 900;
     margin-top: 20px;
     margin-bottom: 10px;
     text-align: center;
@@ -336,7 +326,7 @@ color: black;
 
 .about .title {
     font-size: var(--big-font-size);
-    font-family: BalooBhaijaan2b;
+     font-weight: 900;
     position: relative;
     display: flex;
     align-items: center;
@@ -374,7 +364,7 @@ color: black;
     border-radius: 15px;
     color: white;
     font-size: var(--normal-font-size);
-    font-weight: bold;
+     font-weight: 900;
     margin-top: var(--mb-1-5);
     margin-left: var(--mb-0-5);
     text-align: center;
@@ -440,7 +430,7 @@ color: black;
     padding: 0.6rem 0.6rem 0.4rem 0.6rem;
     font-size: var(--font-medium);
     border-radius: 0.5rem;
-    font-family: BalooBhaijaan2b;
+     font-weight: 900;
 }
 
 .mixitup-control-active {
@@ -481,7 +471,7 @@ color: black;
 .projects  a {
     color: black;
     transition: var(--transition-duration);
-    font-weight: 600;
+     font-weight: 700;
 }
 
 .projects a:hover {
@@ -582,7 +572,7 @@ color: black;
 
 
 .contact_title {
-    font-family: 'BalooBhaijaan2b';
+    font-weight: 900;
     font-size: var(--h2-font-size);
 }
 
@@ -602,7 +592,7 @@ color: black;
 
 .contact_card-titel {
     font-size: var(--h3-font-size);
-    font-weight: 600;
+     font-weight: 900;
     padding: 5px 0;
     
 }
@@ -617,7 +607,7 @@ color: black;
     margin-top: var(--mb-1);
     color: var(--main-color);
     transition: var(--transition-duration);
-    font-weight: 600;
+     font-weight: 900;
 }
 
 .contact_card-link:hover {
@@ -643,7 +633,6 @@ color: black;
     outline: none;
     padding: var(--mb-1);
     border-radius: var(--mb-0-75);
-    font-family: 'BalooBhaijaan';
     font-size: 1.2rem;
 }
 
@@ -671,7 +660,7 @@ color: black;
     height: 2.9rem;
     margin-top: var(--mb-2);
     padding-top: 0.3rem;
-    font-weight: 600;
+     font-weight: 900;
     text-align: center;
     cursor: pointer;
     transition: var(--transition-duration);
@@ -729,7 +718,7 @@ footer .container {
 footer .copyright {
     display: flex;
     justify-content: center;
-    font-family: 'BalooBhaijaan2b';
+    font-weight: 900;
     font-size: 1.2rem;
     text-align: center;
 }

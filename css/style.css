@@ -37,21 +37,17 @@
 /* start globel rules */
 
 
-
-
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: 'Baloo Bhaijaan 2', cursive;
 }
 
 html {
     scroll-behavior: smooth;
 }
 
-body {
-    font-family:'Baloo Bhaijaan 2', cursive;
-}
 
 section {
     overflow: hidden;

@@ -525,11 +525,11 @@ color: black;
 
 
 .links-for-you .links-cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    display: flex;
     gap: 2rem 3rem;
     margin-top: var(--mb-2-5);
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .links {
@@ -855,15 +855,6 @@ footer .contact_title {
         margin-left: 0;
     }
     
-    
-
-    .links-for-you .links-cards {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-        gap: 2rem 3rem;
-        margin-top: var(--mb-2-5);
-        font-size: 0.8rem;
-    }
 
     .contact_container {
         grid-template-columns: repeat(1, max-content);

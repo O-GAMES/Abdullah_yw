@@ -98,7 +98,7 @@ let lang = {
         cardTitelWh: "واتس آب",
         cardTitelWhSend: "تواصل مباشرة",
         contactTitle: "النشرة البريدية",
-        contactEmailText: "أفكار وتجارب أشاركها على إيميلك (بدون إزعاج)",
+        contactEmailText: "أفكار وتجارب أشاركها على بريدك الإلكتروني - بدون إزعاج",
         writeEmail: "اكتب بريدك",
         contactBtn: "تأكيد",
         sponsorTitle: "شركاء منحوني ثقتهم",
@@ -191,7 +191,7 @@ and by His will, the journey continues...
         cardTitelWh: "WhatsApp",
         cardTitelWhSend: "For direct contact",
         contactTitle: "Newsletter",
-        contactEmailText: "To share thoughts and experiences with you<br>via email (without disturbance)",
+        contactEmailText: "To share thoughts and experiences with you<br>via email - without disturbance",
         writeEmail: "Enter your Email",
         contactBtn: "Confirm",
         sponsorTitle: "Partners who have placed their confidence in me",
@@ -358,6 +358,7 @@ icon.onclick = function () {
 }
 
 
+
 /* ============ youtube videos ============  #new_video function   */
 
 
@@ -435,6 +436,7 @@ for (let i = 0; i < linktreeBody.length; i++) {
         text-align: center;
         cursor: pointer;
         font-size: 1.2rem;
+        width: 300px;
         `;        
     }
     
